@@ -22,7 +22,7 @@ labels = ["faild", "pass"]
 c = PieChart(280, 240)
 c.setPieSize(140, 130, 80)
 c.addTitle("api_result")
-#c.set3D()
+c.set3D()
 c.setData(data, labels)
 c.setExplode(0)
 c.makeChart(report_dir+now+"apiresult.png")

@@ -50,7 +50,7 @@ def test_inserthouses(worksheet,workbook):
 			worksheet.write(2,a,'pass')
 			xu += 1
 		else:
-			worksheet.write(2,a,'faild')
+			worksheet.write(2,a,'faild:%s'%k)
 			yu += 1
 	return xu,yu
 #	now = time.strftime('%Y-%m-%d %H_%M_%S')

@@ -21,6 +21,7 @@ def test_updatehouses(worksheet,workbook):
 		notes = table.cell_value(i,8)
 		floor = table.cell_value(i,9)
 		payment = table.cell_value(i,11)
+
 		data = {
 		'houseNum':houseNum,
 		'houseUseFor':houseUseFor,

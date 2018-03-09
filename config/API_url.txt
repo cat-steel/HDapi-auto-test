@@ -1,0 +1,5 @@
+inserthouse=http://192.168.0.176:81/scp-mdmapp/house/insertHouse
+deletehouse=http://192.168.0.176:81/scp-mdmapp/house/deleteHouse
+batchdeletehouse=http://192.168.0.176:81/scp-mdmapp/house/batchdeleteHouse
+gethouse=http://192.168.0.176:81/scp-mdmapp/house/getHouse
+updatehouse=http://192.168.0.176:81/scp-mdmapp/house/updateHouse
