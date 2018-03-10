@@ -1,7 +1,7 @@
 import requests,unittest,os,time,json
 from common import public,get_authorization
 
-
+#房屋编辑测试用例
 def test_updatehouses(worksheet,workbook):
 	nor,table = public.get_case('house',4)
 	Authorization = get_authorization.get_Authorization()
